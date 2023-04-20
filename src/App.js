@@ -11,9 +11,9 @@ function App() {
   return (
     <Wrapper>
       <StartupScreen />
-      <SignupScreen />
+      {/* <SignupScreen />
       <LoginScreen />
-      <ResetPasswordScreen />
+      <ResetPasswordScreen /> */}
     </Wrapper>
   );
 }
