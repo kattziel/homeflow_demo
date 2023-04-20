@@ -1,19 +1,20 @@
+import React from "react";
 import "./App.css";
 
-import StartupScreen from "./components/StartupScreen";
-import SignupScreen from "./components/SignupScreen";
-import LoginScreen from "./components/LoginScreen";
-import ResetPasswordScreen from "./components/ResetPasswordScreen";
+import StartupScreen from "./components/AuthComponents/StartupScreen";
+import SignupScreen from "./components/AuthComponents/SignupScreen";
+import LoginScreen from "./components/AuthComponents/LoginScreen";
+import ResetPasswordScreen from "./components/AuthComponents/ResetPasswordScreen";
+import Wrapper from "./components/UI/Wrapper";
 
 function App() {
   return (
-    <div>
-      <h2>Let's get started</h2>
+    <Wrapper>
       <StartupScreen />
       <SignupScreen />
       <LoginScreen />
       <ResetPasswordScreen />
-    </div>
+    </Wrapper>
   );
 }
 
