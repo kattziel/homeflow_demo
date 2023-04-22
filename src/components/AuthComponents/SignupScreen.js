@@ -1,5 +1,5 @@
 import React from 'react';
-import '../AuthComponents/SignupScreen.css';
+import styles from '../AuthComponents/SignupScreen.module.css';
 
 const SignupScreen = () => {
     return <div> Welcome to SignupScreen</div>

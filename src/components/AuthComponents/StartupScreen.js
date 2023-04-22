@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../AuthComponents/StartupScreen.css";
+import styles from "../AuthComponents/StartupScreen.module.css";
 
 import StartScreenButton from "../UI/StartScreenButton";
 

@@ -1,4 +1,4 @@
-import styles from "./TasksCategories.css";
+import styles from "./TasksCategories.module.css";
 import React from "react";
 import TaskIcon from "./TaskIcon";
 
@@ -13,7 +13,7 @@ const TasksCategories = () => {
         </h2>
       </div>
       <div className={styles.tasksContainer}>
-        <TaskIcon />
+        <TaskIcon imgSrc="https://static.vecteezy.com/system/resources/previews/006/689/880/original/bathroom-icon-illustration-free-vector.jpg" title="Bathroom"/>
         <TaskIcon />
         <TaskIcon />
         <TaskIcon />

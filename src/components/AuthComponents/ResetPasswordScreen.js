@@ -1,5 +1,5 @@
 import React from 'react';
-import '../AuthComponents/ResetPasswordScreen.css';
+import styles from '../AuthComponents/ResetPasswordScreen.module.css';
 
 const ResetPasswordScreen = () => {
     return <div>Welcome to ResetPasswordScreen!</div>

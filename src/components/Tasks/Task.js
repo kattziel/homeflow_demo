@@ -1,4 +1,4 @@
-import styles from './Task.css';
+import styles from './Task.module.css';
 import React from 'react';
 
 const ExpenseItem = () => {

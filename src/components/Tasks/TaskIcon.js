@@ -1,12 +1,14 @@
-import styles from "./TaskIcon.css";
+import styles from "./TaskIcon.module.css";
 import React from "react";
 
-const TaskIcon = ({ text, image }) => {
+const TaskIcon = ({imgSrc, title}) => {
   return (
     <div className={styles.container}>
-      <div className={styles.imageContainer}>Hello</div>
+      <div className={styles.imageContainer}>
+        <img src={imgSrc} alt={title}/>
+      </div>
       <div className={styles.titleContainer}>
-        <p>{text}</p>
+        <p>{title}</p>
       </div>
     </div>
   );

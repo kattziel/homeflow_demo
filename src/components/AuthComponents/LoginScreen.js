@@ -1,8 +1,8 @@
-import React from 'react';
-import '../AuthComponents/LoginScreen.css';
+import React from "react";
+import styles from "../AuthComponents/LoginScreen.module.css";
 
 const LoginScreen = () => {
-    return <div>Welcome to LoginScreen!</div>
-}
+  return <div>Welcome to LoginScreen!</div>;
+};
 
 export default LoginScreen;

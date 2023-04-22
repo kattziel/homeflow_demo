@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import styles from "./App.module.css";
 
 import StartupScreen from "./components/AuthComponents/StartupScreen";
 import SignupScreen from "./components/AuthComponents/SignupScreen";
