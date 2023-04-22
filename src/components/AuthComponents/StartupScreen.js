@@ -1,15 +1,15 @@
 import React from "react";
-import "../AuthComponents/StartupScreen.css";
+import styles from "../AuthComponents/StartupScreen.css";
 
 import StartScreenButton from "../UI/StartScreenButton";
 
 const StartupScreen = () => {
   return (
-    <div className="main-container">
-      <div className="title-container">
-        <h1 className="title">Welcome to HomeFlow</h1>
+    <div className={styles.mainContainer}>
+      <div className={styles.titleContainer}>
+        <h1 className={styles.title}>Welcome to HomeFlow</h1>
       </div>
-      <div className="buttons-container">
+      <div className={styles.buttonsContainer}>
         <StartScreenButton color="#91bfdb" borderColor="#91bfdb">
           Log in
         </StartScreenButton>

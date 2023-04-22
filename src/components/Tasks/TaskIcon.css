@@ -1,0 +1,16 @@
+.container {
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    margin: 10px;
+};
+
+.imageContainer {
+    justify-content: "center";
+    align-items: "center";
+};
+
+.titleContainer {
+    justify-content: "center";
+    align-items: "center";
+};

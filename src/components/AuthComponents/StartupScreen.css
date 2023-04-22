@@ -1,10 +1,10 @@
-.main-container {
+.mainContainer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.title-container {
+.titleContainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,7 @@
     font-size: 50px;
 }
 
-.buttons-container {
+.buttonsContainer {
     margin-left: 100px;
     margin-right: 100px;
     display: flex;
